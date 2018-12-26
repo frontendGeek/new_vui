@@ -5,12 +5,12 @@ const saladConfig = require('./salad.config.json')
 
 module.exports = {
   plugins: {
-    "postcss-import": {},
-    "saladcss-bem": saladConfig.features.bem,
-    "postcss-url": {},
-    "postcss-mixins": {},
-    "precss": {},
+    'postcss-import': {},
+    'saladcss-bem': saladConfig.features.bem,
+    'postcss-url': {},
+    'postcss-mixins': {},
+    'precss': {},
     // to edit target browsers: use "browserslist" field in package.json
-    "autoprefixer": {},
+    'autoprefixer': {}
   }
 }

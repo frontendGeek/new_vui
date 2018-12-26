@@ -2,4 +2,4 @@
 /config/
 /examples/dist/
 /*.js
-/test/unit/coverage/
+/tests/coverage/
