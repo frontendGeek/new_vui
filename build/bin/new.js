@@ -21,7 +21,7 @@ const { version } = require('../../package')
 // 文件路径
 const examplesPath = path.resolve(__dirname, '../../examples')
 const packagesPath = path.resolve(__dirname, '../../packages')
-const testPath = path.resolve(__dirname, '../../tests/unit/specs')
+const testPath = path.resolve(__dirname, '../../test/unit/specs')
 
 // 文件内容及其详细路径
 const examplesFiles = [

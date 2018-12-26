@@ -13,7 +13,7 @@ const componentname = process.argv[2]
 // 文件路径
 const examplesPath = path.resolve(__dirname, '../../examples')
 const packagesPath = path.resolve(__dirname, '../../packages')
-const testPath = path.resolve(__dirname, '../../tests/unit/specs')
+const testPath = path.resolve(__dirname, '../../test/unit/specs')
 
 const files = {
   page_file: `examples/pages/${componentname}.vue`,
