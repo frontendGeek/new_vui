@@ -46,6 +46,7 @@ module.exports = {
         .entry('app').clear().end()
         .entry('vui').add('./src/index.js').end()
         .output.filename('[name].js').library('vui').libraryTarget('umd')
+      config.devtool(false)
     } else {
       config
         .entry('app').clear().end()
